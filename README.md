@@ -1,4 +1,6 @@
 # go-mod-core-contracts
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fjamesrgregg%2Fgo-mod-core-contracts.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fjamesrgregg%2Fgo-mod-core-contracts?ref=badge_shield)
+
 This module contains the contract models used to describe data as it is passed via Request/Response between various
 EdgeX Foundry services. It also contains service clients for each service within the
 [edgex-go](https://github.com/edgexfoundry/edgex-go) repository. The definition of the various models and clients can
@@ -13,3 +15,7 @@ YAML encoding is also supported since a device profile is defined as a YAML docu
 * If your code is in your GOPATH then make sure ```GO111MODULE=on``` is set
 * Run ```go get github.com/edgexfoundry/go-mod-core-contracts```
     * This will add the go-mod-core-contracts to the go.mod file and download it into the module cache
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fjamesrgregg%2Fgo-mod-core-contracts.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fjamesrgregg%2Fgo-mod-core-contracts?ref=badge_large)
